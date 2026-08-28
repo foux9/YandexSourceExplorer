@@ -141,3 +141,5 @@ cd yandex-source-explorer
 
 # Make the script executable (Unix/Linux/Mac)
 chmod +x yandex_explorer.py
+# Basic Command
+python yandex_explorer.py lists
