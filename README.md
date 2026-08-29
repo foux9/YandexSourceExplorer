@@ -1,25 +1,25 @@
-# 📁 Yandex Source Explorer
+# Yandex Source Explorer
 
 > A lightweight terminal tool for exploring large collections of source-code file lists
 
 ---
 
-## 📋 Overview
+##  Overview
 
 **Yandex Source Explorer** is a Python-based command-line utility designed to efficiently navigate and search through extensive source code file collections. It automatically discovers and indexes `*_file_list.txt` files, allowing you to quickly find specific files, paths, or extensions across multiple modules.
 
-### 🎯 Key Features
+###  Key Features
 
 | Feature | Description |
 |---------|-------------|
-| 🔍 **Automatic Discovery** | Automatically finds all `*_file_list.txt` files in a directory |
-| 📋 **Module Listing** | Display all available source code modules |
-| 🔎 **Path Search** | Search for specific paths across all modules |
-| 📄 **Filename Search** | Find files by name across the entire collection |
-| 🏷️ **Extension Search** | Locate files by their extension (e.g., .go, .py, .cpp) |
-| 🎯 **Module-Specific Search** | Search within a specific module |
-| 📊 **Statistics** | View total paths and module counts |
-| 💾 **Memory Efficient** | Processes files line-by-line to minimize memory usage |
+|  **Automatic Discovery** | Automatically finds all `*_file_list.txt` files in a directory |
+|  **Module Listing** | Display all available source code modules |
+|  **Path Search** | Search for specific paths across all modules |
+|  **Filename Search** | Find files by name across the entire collection |
+|  **Extension Search** | Locate files by their extension (e.g., .go, .py, .cpp) |
+|  **Module-Specific Search** | Search within a specific module |
+|  **Statistics** | View total paths and module counts |
+|  **Memory Efficient** | Processes files line-by-line to minimize memory usage |
 
 ---
 
@@ -41,7 +41,7 @@
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.6 or higher
@@ -50,19 +50,18 @@
 ### Setup
 ```bash
 # Clone or download the repository
-git clone https://github.com/foux9/YandexSourceExplorer.gi
+git clone https://github.com/foux9/YandexSourceExplorer.git
 cd YandexSourceExplorer/YandexExplorer
 # Make the script executable (Unix/Linux/Mac)
 chmod +x yandex_explorer.py
-# Basic Command
+# Run
 python yandex_explorer.py lists
-# or
 
 
 ```
 ----
 
-## 📂 File Structure
+##  File Structure
 
 The tool expects a directory containing `*_file_list.txt` files. Each file represents a module and contains one file path per line.
 
