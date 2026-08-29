@@ -23,6 +23,44 @@
 
 ---
 
+### Module Categories:
+
+| Category | Modules |
+|----------|---------|
+| **Core Services** | search, maps, market, mail, disk, cloud, taxi |
+| **Security** | security, crypta, passport, captcha, antiadblock, antirobot |
+| **Infrastructure** | infra, nginx, balancer, config, certs, cdn |
+| **Data & Analytics** | analytics, metrika, datacloud, client_analytics |
+| **Development** | tools, ci, fuzzing, gencfg, sandbox, tasklet |
+| **Business** | billing, commerce, direct, ads, partner, pay, paysys |
+| **AI & Voice** | alice, yandex_io, smart_devices, smarttv |
+| **Content & Media** | docs, travel, maps_adv, products |
+| **Internal** | intranet, helpdesk, crm, noc, it-office |
+| **Mobile** | mobile-WARNING-notfull, yaphone, yawe |
+| **Other** | library, kernel, load, switch, solomon, skynet |
+
+---
+
+## 🚀 Installation
+
+### Prerequisites
+- Python 3.6 or higher
+- No external dependencies required
+
+### Setup
+```bash
+# Clone or download the repository
+git clone https://github.com/foux9/yandex-source-explorer.git
+cd yandex-source-explorer
+
+# Make the script executable (Unix/Linux/Mac)
+chmod +x yandex_explorer.py
+# Basic Command
+python yandex_explorer.py lists
+
+```
+----
+
 ## 📂 File Structure
 
 The tool expects a directory containing `*_file_list.txt` files. Each file represents a module and contains one file path per line.
@@ -109,37 +147,3 @@ yandex360_file_list.txt
 yandex_io_file_list.txt
 yaphone_file_list.txt
 yawe_file_list.txt
-### Module Categories:
-
-| Category | Modules |
-|----------|---------|
-| **Core Services** | search, maps, market, mail, disk, cloud, taxi |
-| **Security** | security, crypta, passport, captcha, antiadblock, antirobot |
-| **Infrastructure** | infra, nginx, balancer, config, certs, cdn |
-| **Data & Analytics** | analytics, metrika, datacloud, client_analytics |
-| **Development** | tools, ci, fuzzing, gencfg, sandbox, tasklet |
-| **Business** | billing, commerce, direct, ads, partner, pay, paysys |
-| **AI & Voice** | alice, yandex_io, smart_devices, smarttv |
-| **Content & Media** | docs, travel, maps_adv, products |
-| **Internal** | intranet, helpdesk, crm, noc, it-office |
-| **Mobile** | mobile-WARNING-notfull, yaphone, yawe |
-| **Other** | library, kernel, load, switch, solomon, skynet |
-
----
-
-## 🚀 Installation
-
-### Prerequisites
-- Python 3.6 or higher
-- No external dependencies required
-
-### Setup
-```bash
-# Clone or download the repository
-git clone https://github.com/foux9/yandex-source-explorer.git
-cd yandex-source-explorer
-
-# Make the script executable (Unix/Linux/Mac)
-chmod +x yandex_explorer.py
-# Basic Command
-python yandex_explorer.py lists
