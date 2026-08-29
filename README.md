@@ -1,6 +1,6 @@
 # Yandex Source Explorer
 
-> A lightweight terminal tool for exploring large collections of source-code file lists
+> file lists There is no illegal material or download links! filenames only!
 
 ---
 
