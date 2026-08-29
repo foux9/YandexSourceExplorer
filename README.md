@@ -50,13 +50,14 @@
 ### Setup
 ```bash
 # Clone or download the repository
-git clone https://github.com/foux9/yandex-source-explorer.git
-cd yandex-source-explorer
-
+git clone https://github.com/foux9/YandexSourceExplorer.gi
+cd YandexSourceExplorer/YandexExplorer
 # Make the script executable (Unix/Linux/Mac)
 chmod +x yandex_explorer.py
 # Basic Command
 python yandex_explorer.py lists
+# or
+
 
 ```
 ----
